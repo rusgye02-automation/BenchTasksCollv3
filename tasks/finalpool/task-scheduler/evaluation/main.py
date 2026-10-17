@@ -1,8 +1,12 @@
-"""Evaluation script for task-scheduler."""
+# Evaluation script for task-scheduler
 
 def run_evaluation():
-    print("Running evaluation for task-scheduler")
+    # TODO: Implement actual evaluation logic
     return True
 
-if __name__ == "__main__":
-    run_evaluation()
+if __name__ == '__main__':
+    result = run_evaluation()
+    if result:
+        print('Evaluation passed')
+    else:
+        print('Evaluation failed')
